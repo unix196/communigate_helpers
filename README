@@ -1,0 +1,24 @@
+Скрипт record_email_toremote.py - пример обработчика communigate для записи почтовых сообщений и отправки на удаленный сайт.
+Скрипт отправляет  информацию post-запросом в формате json. Примерный вид что будет на выходе:
+
+{
+    "From": "=?utf-8?B?0K/QutC40LzQvtCy0LAg0JrRgdC10L3QuNGPINCS0LjQutGC0L4=?=\n =?utf-8?B?0YDQvtCy0L3QsA==?= <ksenia.@test.ru>", 
+    "Return-path": "<ksenia@test.ru>", 
+    "SourceIP": "IP", 
+    "To": "\" Andrey\" <Andrey@test.com>", 
+    "Date": "Fri, 23 Dec 2016 10:59:00 +0500", 
+    "Message-ID": "<ximss-2775593@mail.test.ru>", 
+    "Recipient": "['<Andrey@test.com>', '<Evgeniya@rtest.com>']", 
+    "Subject": "Re: Door Columbus, USA - LO St. Petersburg,\n Russia//2x20"
+}
+{
+    "From": "\"ValuFix\" <ValuFix@happy-new-year-17.ru>", 
+    "Return-path": "<ValuFix@happy-new-year-17.ru>", 
+    "SourceIP": "185.87.51.6", 
+    "To": "<boss@test.ru>", 
+    "Date": "Fri, 23 Dec 2016 11:00:03 +0500", 
+    "Message-ID": "<7882CB5F13C7EBA87471388662E7F784@happy-new-year-17.ru>", 
+    "Recipient": "['<boss@test.ru>']", 
+    "Subject": "=?windows-1251?B?z/Du9OXx8eju7eDr/O3u5SDr5ffl7ejlIOru?=\n\t=?windows-1251?B?8fLu9+roIO3gIO3u4+UgLSDw5efz6/zy4PIg?=\n\t=?windows-1251?B?5+Ag7OXx//Y=?="
+}
+
